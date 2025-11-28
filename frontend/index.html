@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>متجر كوب البيئة</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+    background: linear-gradient(-45deg, #85c08c, #3e8e41, #a0d995, #1f5f28);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+ @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h2, h4 {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+h2 { animation-delay: 0.5s; }
+h4 { animation-delay: 1s; }
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+img {
+    transition: transform 0.3s;
+    border-radius: 15px;
+}
+img:hover { transform: scale(1.1); }
+
+.btn-primary {
+    background-color: #2c7a2c;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-primary:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(255, 253, 253, 0.3);
+}
+</style>
+</head>
+<body>
+
+<div class="my-4">
+  <img src="nhla.jpg" height="200" width="300" alt="nhla jpg">
+</div>
+<br>
+<br>
+<h2>مرحبا بك في متجرنا كوبا البيئة</h2> 
+<h4 class="mb-4">نحن سعداء بزيارتك لمتجرنا حيث نحرص على تقديم منتجات صديقة للبيئة تساعدك على العيش بأسلوب مستدام. 
+    استكشف مجموعتنا واختر ما يلهمك للحفاظ على كوكبنا الجميل.</h4>
+
+<p>
+  <a href="login.html" class="btn btn-primary">انتقال إلى الصفحة التالية</a>
+</p>
+
+</body>
+</html>
+
+
